@@ -48,7 +48,7 @@ h3{
   justify-content: center;
   /* background-color: rgb(176, 176, 199); */
 }
-.blank{
+.container{
   background-color: rgb(218, 144, 193);
 }
 p{
@@ -70,4 +70,37 @@ button{
   border-radius: 5px;
   background-color: rgb(102, 174, 207);
   font-weight: bold;
+}
+
+.image-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.img-box{
+  border: 2px solid black;
+  border-radius: 2px;
+  box-sizing: border-box;
+  height: 50vmax;
+  width: 25vw;
+  
+}
+
+.row1{
+  display: flex;
+  gap: 30px;
+  
+}
+
+.row2{
+  
+  gap: 30px;
+  display: flex;
+}
+
+img{
+  width: 20vw;
+  padding: 2.5vw 2.5vw;
+  height: 40vw;
 }
